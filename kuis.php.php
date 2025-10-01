@@ -4,28 +4,81 @@
     <title>Kuis Pemrograman Web</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
             margin: 20px;
+            background-color: #fff0f5; /* soft pink/lavender */
+            color: #333;
         }
-        h2 { color: #333; }
+
+        h2 {
+            color: #ff69b4; /* hot pink */
+            text-shadow: 1px 1px 2px #ffb6c1;
+        }
+
         form {
             margin-bottom: 20px;
-            padding: 15px;
-            border: 1px solid #aaa;
-            border-radius: 8px;
-            background-color: #f9f9f9;
+            padding: 20px;
+            border: 2px solid #ffb6c1;
+            border-radius: 15px;
+            background-color: #ffe4f0;
+            box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3);
         }
+
+        input[type="text"], select, textarea {
+            width: 95%;
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #ffb6c1;
+            border-radius: 8px;
+            background-color: #fff0f5;
+        }
+
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #ff85c1;
+        }
+
         table {
             border-collapse: collapse;
-            width: 50%;
+            width: 60%;
+            max-width: 600px;
             margin-top: 15px;
+            border: 2px solid #ffb6c1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(255, 182, 193, 0.2);
+            background-color: #fff0f5;
         }
-        table, th, td {
-            border: 1px solid #444;
-            padding: 8px;
+
+        th, td {
+            border: 1px solid #ffb6c1;
+            padding: 10px;
+            text-align: left;
         }
+
         th {
-            background-color: #eee;
+            background-color: #ffb6c1;
+            color: white;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px dashed #ffb6c1;
+            margin: 30px 0;
         }
     </style>
 </head>
